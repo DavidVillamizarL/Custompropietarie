@@ -1,0 +1,93 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+
+:root{
+  --color: darkcyan;
+  --color2: rgb(247, 77, 170);
+  --white: #fff;
+  --grey: rgb(136, 136, 136);
+  --gradient: linear-gradient(45deg, #ff9a9e 0%, #fad0c4 99%, #fad0c4 100%);
+  --box-shadow: 5px 20px 5px rgba(201, 69, 69, 0.309);
+  --radius: 8px;
+  --margin: 30px auto;
+  --padding: 30px 20px;
+  --width: 300px;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  background-image: var(--gradient);
+}
+
+.card{
+  background: var(--white);
+  width: 300px;
+  margin: 30px auto;
+  padding: 30px 20px;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--radius);
+}
+
+.card_title{
+  font-size: 30px;
+  color: var(--color2);
+  margin-bottom: 20px;
+}
+
+
+
+.card_copy{
+ color: var(--color);
+ font-size: 1.4rem;
+ margin: 20px auto;
+}
+
+.card_cta{
+  display: inline-block;
+  color: var(--color);
+  text-decoration: none;
+  padding: 12px 20px;
+  background-image: var(--gradient);
+  border-radius: calc(var(--radius) -5px);
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+}
+
+.card2{
+  background: var(--white);
+  width: 300px;
+  margin: 30px auto;
+  padding: 30px 20px;
+  box-shadow: var(--box-shadow);
+  border-radius: var(--radius);
+
+}
+
+.bottom{
+  display: inline-block;
+  color: var(--color);
+  text-decoration: none;
+  padding: 12px 20px;
+  background-image: var(--gradient);
+  border-radius: calc(var(--radius));
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+}
+.bottom--black{
+  background: black;
+  color: #fff;
+}
+
+.bottom--linea{
+  border: 2px rgb(0, 0, 0) solid;
+  background: white;
+  color: black;
+}
